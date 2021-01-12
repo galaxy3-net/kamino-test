@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   #config.vm.box = "kalilinux/rolling"
   config.vm.hostname = "kamino-build"
   #config.vm.box_version = "2020.4.0"
-  config.vm.box_url = "file://home/korben/kali.box"
+  config.vm.box_url = "file:///home/korben/kali.box"
   # config.disksize.size = '75GB'
 
   config.vm.network "private_network", ip: "10.55.55.4",
