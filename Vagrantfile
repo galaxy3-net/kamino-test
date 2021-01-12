@@ -5,11 +5,11 @@ thedr_userid = "2001"
 thedr_groupid = "2001"
 
 Vagrant.configure("2") do |config|
-  #config.vm.box = "galaxy3/kamino"
+  config.vm.box = "galaxy3/dummy"
   #config.vm.box_version = "2021.01.05-0000"
-  config.vm.box = "kalilinux/rolling"
+  #config.vm.box = "kalilinux/rolling"
   config.vm.hostname = "kamino-build"
-  config.vm.box_version = "2020.4.0"
+  #config.vm.box_version = "2020.4.0"
   config.vm.box_url = "file://home/korben/kali.box"
   # config.disksize.size = '75GB'
 
